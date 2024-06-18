@@ -102,5 +102,39 @@
       </p>
       <!-- Schedule details would go here -->
     </section>
+    <section id="register">
+      <h2>Register</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="eventDate">Event Date:</label>
+        <input
+          type="text"
+          id="eventDate"
+          name="eventDate"
+          placeholder="MM/DD/YYYY"
+          required
+        />
+
+        <label for="tickets">Number of Tickets:</label>
+        <input
+          type="number"
+          id="tickets"
+          name="tickets"
+          min="1"
+          max="10"
+          required
+        />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
   </body>
 </html>
