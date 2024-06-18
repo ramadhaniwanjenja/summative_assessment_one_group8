@@ -77,3 +77,12 @@ header nav ul li a {
     border-radius: 10px;
 }
 
+#about, #schedule, #register {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2, #schedule h2, #register h2 {
+    color: #007DFB;
+}
+
