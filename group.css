@@ -106,3 +106,16 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+#register button {
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register button:hover {
+    background-color: #28a745;
+}
+
