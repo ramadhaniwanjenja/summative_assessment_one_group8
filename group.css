@@ -50,3 +50,19 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+#artists {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#artists h2 {
+    color: #B10DA1;
+}
+
+.artist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
