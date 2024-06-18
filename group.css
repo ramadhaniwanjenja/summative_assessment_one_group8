@@ -86,3 +86,23 @@ header nav ul li a {
     color: #007DFB;
 }
 
+#register form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#register label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#register input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
