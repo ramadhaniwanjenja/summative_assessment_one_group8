@@ -28,3 +28,17 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     if (!phoneRegex.test(phone)) {
         alert('Please enter a valid phone number in the format (123) 456-7890.');
         return;
+
+        
+
+    if (!dateRegex.test(eventDate)) {
+        alert('Please enter a valid date in MM/DD/YYYY format.');
+        return;
+    }
+
+
+    const year = parseInt(eventDate.split('/')[2]);
+    if (year < 2024) {
+        alert('Please enter a year of 2024 or later.');
+        return;
+    }
