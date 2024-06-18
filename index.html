@@ -1,59 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VibeRhythm Fiesta</title>
-    <link rel="stylesheet" href="group.css">
-</head>
-<body>
+    <link rel="stylesheet" href="group.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">VibeRhythm Fiesta</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#artists">Artists</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#register">Register</a></li>
-            </ul>
-        </nav>
+      <div class="logo">VibeRhythm Fiesta</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#artists">Artists</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
     </header>
-     
+
     <section id="hero">
-        <div class="hero-content">
-            <h1>Join the rhythm of the night at VibeRhythm Fiesta!</h1>
-            <a href="#register" class="button">Register Now</a>
-        </div>
+      <div class="hero-content">
+        <h1>Join the rhythm of the night at VibeRhythm Fiesta!</h1>
+        <a href="#register" class="button">Register Now</a>
+      </div>
     </section>
-    
+
     <section id="artists">
-        <h2>Meet Our Stars</h2>
-        <div class="artist-grid">
-            <div class="artist">
-                <img src="ava-echo.jpg" alt="Ava Echo">
-                <h3>Ava Echo</h3>
-                <p>Indie Pop - Captivating melodies that resonate with the soul.</p>
-            </div>
-            <div class="artist">
-                <img src="sonic-canvas.jpg" alt="The Sonic Canvas">
-                <h3>The Sonic Canvas</h3>
-                <p>Alternative Rock - A fusion of raw energy and innovative soundscapes.</p>
-            </div>
-            <div class="artist">
-                <img src="dj-pulsewave.jpg" alt="DJ Pulsewave">
-                <h3>DJ Pulsewave</h3>
-                <p>EDM - Beats that make your heart race and feet move.</p>
-            </div>
-            <div class="artist">
-                <img src="luna-strings.jpg" alt="Luna Strings">
-                <h3>Luna Strings</h3>
-                <p>Classical Crossover - A harmonious blend of tradition and modernity.</p>
-            </div>
-            <div class="artist">
-                <img src="zola-beats.jpg" alt="Zola Beats">
-                <h3>Zola Beats</h3>
-                <p>A South African DJ known for her vibrant Afrobeat mixes.</p>
-            </div>
+      <h2>Meet Our Stars</h2>
+      <div class="artist-grid">
+        <div class="artist">
+          <img src="ava-echo.jpg" alt="Ava Echo" />
+          <h3>Ava Echo</h3>
+          <p>Indie Pop - Captivating melodies that resonate with the soul.</p>
+        </div>
+        <div class="artist">
+          <img src="sonic-canvas.jpg" alt="The Sonic Canvas" />
+          <h3>The Sonic Canvas</h3>
+          <p>
+            Alternative Rock - A fusion of raw energy and innovative
+            soundscapes.
+          </p>
+        </div>
+        <div class="artist">
+          <img src="dj-pulsewave.jpg" alt="DJ Pulsewave" />
+          <h3>DJ Pulsewave</h3>
+          <p>EDM - Beats that make your heart race and feet move.</p>
+        </div>
+        <div class="artist">
+          <img src="luna-strings.jpg" alt="Luna Strings" />
+          <h3>Luna Strings</h3>
+          <p>
+            Classical Crossover - A harmonious blend of tradition and modernity.
+          </p>
+        </div>
+        <div class="artist">
+          <img src="zola-beats.jpg" alt="Zola Beats" />
+          <h3>Zola Beats</h3>
+          <p>A South African DJ known for her vibrant Afrobeat mixes.</p>
+        </div>
+        <div class="artist">
+          <img src="kofi-strings.jpg" alt="Kofi Strings" />
+          <h3>Kofi Strings</h3>
+          <p>
+            A Ghanaian guitarist whose melodies blend traditional highlife with
+            modern jazz.
+          </p>
+        </div>
+        <div class="artist">
+          <img src="nia-soul.jpg" alt="Nia Soul" />
+          <h3>Nia Soul</h3>
+          <p>
+            A Nigerian singer-songwriter with a powerful voice and inspiring R&B
+            tunes.
+          </p>
+        </div>
+        <div class="artist">
+          <img src="esi-harmony.jpg" alt="Esi Harmony" />
+          <h3>Esi Harmony</h3>
+          <p>
+            A Kenyan vocalist celebrated for her fusion of Swahili lyrics and
+            contemporary pop.
+          </p>
+        </div>
+      </div>
     </section>
-</body>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        VibeRhythm Fiesta is more than just a concert; it’s a celebration of
+        music, culture, and community. Born from a passion for live performances
+        and unforgettable nights, we bring you an experience that will echo in
+        your memories long after the last note fades.
+      </p>
+    </section>
+    <section id="schedule">
+      <h2>Set Your Clocks to Music Time</h2>
+      <p>
+        Plan your adventure with our detailed schedule. Never miss a beat with
+        our up-to-the-minute guide to all performances and activities.
+      </p>
+      <!-- Schedule details would go here -->
+    </section>
+    <section id="register">
+      <h2>Register</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="eventDate">Event Date:</label>
+        <input
+          type="text"
+          id="eventDate"
+          name="eventDate"
+          placeholder="MM/DD/YYYY"
+          required
+        />
+
+        <label for="tickets">Number of Tickets:</label>
+        <input
+          type="number"
+          id="tickets"
+          name="tickets"
+          min="1"
+          max="10"
+          required
+        />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <footer>
+      <p>Stay Connected</p>
+      <div class="social-media">
+        <!-- Social media links would go here -->
+      </div>
+      <p>Contact information and legal disclaimers</p>
+    </footer>
+
+    <script src="form.js"></script>
+  </body>
 </html>
