@@ -12,3 +12,19 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const emailRegex = /^[a-zA-Z][a-zA-Z0-9._-]*@[^\s@]+\.[^\s@]+$/;
     const phoneRegex = /^\(\d{3}\) \d{3}-\d{4}$/;
     const dateRegex = /^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(202[4-9]|20[3-9][0-9]|[4-9][0-9]{3})$/;
+
+    if (!nameRegex.test(name)) {
+        alert('Please enter a valid name (2-30 characters, only letters and spaces).');
+        return;
+    }
+
+
+    if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address.');
+        return;
+    }
+
+
+    if (!phoneRegex.test(phone)) {
+        alert('Please enter a valid phone number in the format (123) 456-7890.');
+        return;
