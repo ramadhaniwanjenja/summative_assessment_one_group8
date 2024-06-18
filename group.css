@@ -37,7 +37,7 @@ header nav ul li a {
 #hero {
     background-image: url('concert-banner.jpg');
     background-size: cover;
-    color: white;
+    color: rgb(15, 1, 1);
     text-align: center;
     padding: 100px 20px;
 }
