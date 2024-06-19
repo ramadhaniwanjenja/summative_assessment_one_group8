@@ -18,17 +18,17 @@ Open the index.html file in your preferred web browser to view and interact with
 #### **Features**
 Form Fields:
 
-Name: Must be letters and spaces only (2-30 characters).
-Email: Must be a valid email address format (e.g., someone@domain.com).
-Phone Number: Must follow the format (123) 456-7890.
-Event Date: Must be a valid date in MM/DD/YYYY format.
-Number of Tickets: Must be a number between 1 and 10.
+- **Name**: Must contain only letters and spaces.
+- **Email**: Must follow a valid email format (e.g., someone@domain.com).
+- **Phone Number**: Must be in the format (123) 456-7890.
+- **Event Date**: Must be a valid date in MM/DD/YYYY format.
+- **Number of Tickets**: Must be a number between 1 and 10.
 Client-side Validation: Ensures that all input fields are correctly filled out before allowing form submission.
 
 ##### **Technologies Used**
-HTML: For structuring the registration form.
-CSS: For styling the form.
-JavaScript: For form validation.
+- HTML: For structuring the registration form.
+- CSS: For styling the form.
+- JavaScript: For form validation.
 
 ###### **CONTRIBUTORS**
 Sheryl Otieno
