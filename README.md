@@ -1,11 +1,11 @@
 # **Overview**
 The Event Registration Form is designed to collect attendee information for a fictional event. This form ensures that all input data is valid and correctly formatted before submission. The required fields include:
 
-Name: Must contain only letters and spaces.
-Email: Must follow a valid email format (e.g., someone@domain.com).
-Phone Number: Must be in the format (123) 456-7890.
-Event Date: Must be a valid date in MM/DD/YYYY format.
-Number of Tickets: Must be a number between 1 and 10.
+- Name: Must contain only letters and spaces.
+- Email: Must follow a valid email format (e.g., someone@domain.com).
+- Phone Number: Must be in the format (123) 456-7890.
+- Event Date: Must be a valid date in MM/DD/YYYY format.
+- Number of Tickets: Must be a number between 1 and 10.
 This project includes HTML for the form structure, CSS for styling, and JavaScript for client-side validation.
 
 ## **INSTALLATION**
@@ -31,10 +31,10 @@ Client-side Validation: Ensures that all input fields are correctly filled out b
 - JavaScript: For form validation.
 
 ###### **CONTRIBUTORS**
-Sheryl Otieno
-Ramadhani Wanjenja
-Branice otiende
-Irais Icyeza Gatore
+- Sheryl Otieno
+- Ramadhani Wanjenja
+- Branice otiende
+- Irais Icyeza Gatore
 
 Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and is well-documented.
